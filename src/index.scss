@@ -7,3 +7,28 @@
 * {
     font-family: Barlow;
 }
+
+.custom-bg-button {
+    background-color: $pink;
+    color: white;
+
+    &:hover {
+        border-color: rgb(187, 32, 88);
+        background-color: rgb(187, 32, 88);
+    }
+}
+
+.custom-no-bg-button {
+    &:hover {
+        border-color: white;
+        background-color: white;
+    }
+}
+
+
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

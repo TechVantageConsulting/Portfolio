@@ -1,0 +1,13 @@
+.custom-no-bg-button {
+    border-radius: 0;
+    border-bottom: 2px solid white;
+
+    &:active {
+        background-color: white !important;
+        color: black !important;
+    }
+
+    &:hover {
+        border-bottom: 2px solid #F51767;
+    }
+}
