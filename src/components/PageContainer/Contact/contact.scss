@@ -1,0 +1,32 @@
+@import "../../../variables";
+
+.card * {
+    color: white;
+
+
+
+}
+
+.card {
+    height: 250px;
+
+    .left-side {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .card-title {
+        width: 80%;
+        font-size: 35px;
+        line-height: normal;
+    }
+
+    .btn {
+        border: none
+    }
+
+    input {
+        color: $gray;
+    }
+}

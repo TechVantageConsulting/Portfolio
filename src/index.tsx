@@ -5,6 +5,7 @@ import PageContainer from "./components/PageContainer/pageContainer";
 import { Navbar } from "./components/PageContainer/Navbar/navbar";
 import { HeroSection } from "./components/PageContainer/HeroSection/heroSection";
 import { Companies } from "./components/Companies/companies";
+import { Contact } from "./components/PageContainer/Contact/contact";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
@@ -13,5 +14,8 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
       <HeroSection />
     </PageContainer>
     <Companies />
+    <PageContainer>
+      <Contact />
+    </PageContainer>
   </React.StrictMode>
 );

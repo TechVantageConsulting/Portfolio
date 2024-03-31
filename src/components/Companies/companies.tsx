@@ -10,7 +10,7 @@ import "./companies.scss";
 
 export const Companies = () => {
   return (
-    <div className="companies-carrousel flex-center mt-8">
+    <div className="companies-carrousel flex-center mt-12">
       <img src={telekom} alt="telekom" />
       <img src={aerticket} alt="aerticket" />
       <img src={bde} alt="bde" />

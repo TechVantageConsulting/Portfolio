@@ -10,14 +10,13 @@ export const HeroSection = () => {
         The most efficient and supportive way for you to learn in-demand skills,
         get hired, and advance your career.
       </p>
-      {/* TODO: REUSE THIS */}
       <div className="text-center mt-8">
-        <a className="btn custom-bg-button text-lg">Contactanos</a>
+        <a className="btn custom-bg-button text-lg">CONTACTANOS</a>
       </div>
       <div className="mt-24">
         <img className="ml-2" src={compound} alt="compound" />
       </div>
-      <h3 className="font-bold mt-16">
+      <h3 className="font-bold">
         We work with companies from all around the world across any field,
         bringing their ideas to life.
       </h3>
