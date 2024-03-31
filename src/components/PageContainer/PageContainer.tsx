@@ -1,13 +1,16 @@
-// PageContainer.tsx
 import React, { ReactNode } from "react";
-import "./PageContainer.scss"; // Import your SCSS file for styling
+import "./pageContainer.scss";
 
 interface PageContainerProps {
-  children: ReactNode; // ReactNode type allows any valid JSX
+  children: ReactNode;
 }
 
 const PageContainer: React.FC<PageContainerProps> = ({ children }) => {
-  return <div className="page-container">{children}</div>;
+  return (
+    <div id="page-container" className="page-container">
+      {children}
+    </div>
+  );
 };
 
 export default PageContainer;
