@@ -1,3 +1,5 @@
+@import "../../../variables";
+
 .custom-no-bg-button {
     border-radius: 0;
     border-bottom: 2px solid white;
@@ -8,6 +10,6 @@
     }
 
     &:hover {
-        border-bottom: 2px solid #F51767;
+        border-bottom: 2px solid $pink;
     }
 }

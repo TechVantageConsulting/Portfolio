@@ -30,7 +30,6 @@ export const Navbar = () => {
             <NavbarItems />
           </ul>
         </div>
-        {/* TODO: THIS SHOULD REDIRECTll */}
         <a
           className="flex-center font-medium text-xl flex pl-0"
           href="#page-container"
@@ -45,7 +44,7 @@ export const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn custom-bg-button text-lg">Contactar</a>
+        <a className="btn custom-bg-button text-lg">Contactanos</a>
       </div>
     </div>
   );
