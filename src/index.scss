@@ -1,43 +1,40 @@
 @import "variables";
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
-
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 * {
-    font-family: Barlow;
-    color: $gray;
+  font-family: Barlow;
+  color: $gray;
 }
 
 .custom-bg-button {
-    background-color: $pink;
-    color: white;
+  background-color: $pink;
+  color: white;
 
-    &:hover {
-        border-color: rgb(187, 32, 88);
-        background-color: rgb(187, 32, 88);
-    }
+  &:hover {
+    border-color: rgb(187, 32, 88);
+    background-color: rgb(187, 32, 88);
+  }
 }
 
 .custom-no-bg-button {
-    &:hover {
-        border-color: white;
-        background-color: white;
-    }
+  &:hover {
+    border-color: white;
+    background-color: white;
+  }
 }
 
-
-
 .flex-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .blue-bg {
-    background-color: $blue;
+  background-color: $blue;
 }
 
 .pink-bg {
-    background-color: $pink;
+  background-color: $pink;
 }
