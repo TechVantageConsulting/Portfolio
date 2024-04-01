@@ -1,9 +1,9 @@
-import members from "../../../assets/Members/members.png";
 import "./members.scss";
+import members from "../../../assets/Members/members.png";
 
 export function Members() {
   return (
-    <div className="grid grid-cols-2">
+    <div className="grid grid-cols-2 text-white">
       <div className="col-span-2 grid grid-cols-1 lg:col-span-1">
         <div>
           <h2 className="text-4xl font-bold pb-10 text-black md:text-center lg:mr-8 lg:pb-14">
@@ -25,8 +25,8 @@ export function Members() {
 
         <div className="grid grid-cols-2 sm:gap-x-6 lg:gap-x-0 lg:mb-8">
           <div className="custom-bg-gray shadow-lg col-span-2 flex flex-col items-center justify-center py-4 rounded-lg mb-8 sm:col-span-1 sm:mb-6 lg:mb-0 lg:mr-8">
-            <h3 className="text-3xl font-bold text-white">10+</h3>
-            <p className="text-lg text-white">Years of experience</p>
+            <h3 className="text-3xl font-bold ">10+</h3>
+            <p className="text-lg ">Years of experience</p>
           </div>
 
           <div className="custom-bg-purple shadow-lg col-span-2 flex flex-col items-center justify-center py-4 rounded-lg mb-8 sm:col-span-1 sm:mb-6 lg:mb-0 lg:mr-8">
@@ -36,8 +36,8 @@ export function Members() {
         </div>
         <div className="grid grid-cols-2 sm:gap-x-6 lg:gap-x-0">
           <div className="custom-bg-gray shadow-lg col-span-2 flex flex-col items-center justify-center py-4 rounded-lg mb-8 sm:col-span-1 sm:mb-6 lg:mb-0 lg:mr-8">
-            <h3 className="text-3xl font-bold text-white">10+</h3>
-            <p className="text-lg text-white">Years of experience</p>
+            <h3 className="text-3xl font-bold ">10+</h3>
+            <p className="text-lg ">Years of experience</p>
           </div>
 
           <div className="custom-bg-purple shadow-lg col-span-2 flex flex-col items-center justify-center py-4 rounded-lg mb-8 sm:col-span-1 sm:mb-6 lg:mb-0 lg:mr-8">
@@ -48,7 +48,7 @@ export function Members() {
       </div>
 
       <div className="col-span-2 lg:col-span-1 lg:flex lg:items-center lg:justify-center">
-        <img src={members} alt="members" />
+        <img src={members} alt="members" className="max-auto" />
       </div>
     </div>
   );
