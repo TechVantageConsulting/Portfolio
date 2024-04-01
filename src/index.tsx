@@ -18,6 +18,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
     <Companies />
     <PageContainer>
       <Contact />
+      <Footer />
     </PageContainer>
     <Footer />
   </React.StrictMode>

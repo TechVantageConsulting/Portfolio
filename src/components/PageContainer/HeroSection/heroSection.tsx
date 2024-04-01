@@ -1,5 +1,5 @@
 import "./heroSection.scss";
-import compound from "../../../assets/HeroSection/compound.png";
+import compound from "../../../assets/HeroSection/compound-2.png";
 
 export const HeroSection = () => {
   return (
