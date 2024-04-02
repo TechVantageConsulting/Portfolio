@@ -8,6 +8,7 @@ import { Companies } from "./components/PageContainer/Companies/companies";
 import { Contact } from "./components/PageContainer/Contact/contact";
 import { Footer } from "./components/PageContainer/Footer/footer";
 import { Services } from "./components/PageContainer/Services/services";
+import { Members } from "./components/PageContainer/Members/members";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   // TODO: REMOVE
@@ -18,7 +19,8 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
     </PageContainer>
     {/* <Companies /> */}
     <PageContainer>
-      <Services />
+      <Members />
+      {/* <Services /> */}
       {/* <Contact /> */}
       {/* <Footer /> */}
     </PageContainer>
