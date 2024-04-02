@@ -17,10 +17,10 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
       {/* <HeroSection /> */}
     </PageContainer>
     {/* <Companies /> */}
-    {/* <PageContainer> */}
-    {/* <Services /> */}
-    {/* <Contact /> */}
-    {/* <Footer /> */}
-    {/* </PageContainer> */}
+    <PageContainer>
+      <Services />
+      {/* <Contact /> */}
+      {/* <Footer /> */}
+    </PageContainer>
   </React.StrictMode>
 );
