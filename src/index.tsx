@@ -21,7 +21,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
     {/* <Companies /> */}
     <PageContainer>
       <Projects />
-      <Members />
+      {/* <Members /> */}
       {/* <Services /> */}
       {/* <Contact /> */}
       {/* <Footer /> */}
