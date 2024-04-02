@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.scss";
-import PageContainer from "./components/PageContainer/pageContainer";
+import PageContainer from "./components/PageContainer/ageContainer";
 import { Navbar } from "./components/PageContainer/Navbar/navbar";
 import { HeroSection } from "./components/PageContainer/HeroSection/heroSection";
 import { Companies } from "./components/PageContainer/Companies/companies";
