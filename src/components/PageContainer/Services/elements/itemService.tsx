@@ -1,6 +1,6 @@
 export function ItemService() {
   return (
-    <div className="grid grid-cols-12 lg:gap-10">
+    <div className="grid grid-cols-12 lg:gap-x-10">
       {/* first-item */}
       <div className="grid grid-cols-12 col-span-12 custom-bg text-white md:gap-8 md:pl-2 md:pt-10 lg:col-span-6 lg:gap-14 lg:pl-8 xl:col-span-4 xl:pl-2">
         <div className="grid col-span-12 py-4 md:col-span-1 md:items-center md:justify-center ">
@@ -86,8 +86,8 @@ export function ItemService() {
       </div>
 
       {/* fourth-item */}
-      <div className="grid grid-cols-12 col-span-12 custom-bg text-white md:gap-8 md:pl-2 md:pt-14 lg:col-span-6 lg:gap-14 lg:pt-10 lg:pl-8 lg:py-14 xl:col-span-4 xl:pl-2">
-        <div className="grid col-span-12 py-4 md:col-span-1 md:items-center md:justify-center">
+      <div className="grid grid-cols-12 col-span-12 custom-bg text-white md:gap-8 md:pl-2 md:pt-14 lg:col-span-6 lg:gap-14 lg:pt-10 lg:pl-8 xl:col-span-4 xl:pl-2">
+        <div className="grid col-span-12 py-4 md:col-span-1 md:items-center md:justify-center xl:pb-14">
           <svg
             width="50"
             height="50"
@@ -114,8 +114,8 @@ export function ItemService() {
       </div>
 
       {/* fifth-item */}
-      <div className="grid grid-cols-12 col-span-12 custom-bg text-white md:gap-8 md:pl-2 md:pt-14 lg:col-span-6 lg:gap-14 lg:pt-10 lg:pl-8 lg:py-14 xl:col-span-4 xl:pl-2">
-        <div className="grid col-span-12 py-4 md:col-span-1 md:items-center md:justify-center">
+      <div className="grid grid-cols-12 col-span-12 custom-bg text-white md:gap-8 md:pl-2 md:pt-14 lg:col-span-6 lg:gap-14 lg:pt-10 lg:pl-8 xl:col-span-4 xl:pl-2">
+        <div className="grid col-span-12 py-4 md:col-span-1 md:items-center md:justify-center lg:pb-14">
           <svg
             width="50"
             height="50"
@@ -142,8 +142,8 @@ export function ItemService() {
       </div>
 
       {/* sixth-item */}
-      <div className="grid grid-cols-12 col-span-12 custom-bg text-white md:gap-8 md:pl-2 md:py-14 lg:col-span-6 lg:gap-14 lg:pt-10 lg:pl-8 xl:col-span-4 xl:pl-2">
-        <div className="grid col-span-12 py-4 md:col-span-1 md:items-center md:justify-center">
+      <div className="grid grid-cols-12 col-span-12 custom-bg text-white md:gap-8 md:pl-2 md:pt-14 lg:col-span-6 lg:gap-14  lg:pt-10 lg:pl-8 xl:col-span-4 xl:pl-2">
+        <div className="grid col-span-12 py-4 md:col-span-1 md:items-center md:justify-center md:pb-14">
           <svg
             width="50"
             height="50"
