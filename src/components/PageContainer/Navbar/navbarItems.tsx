@@ -6,7 +6,6 @@ export const NavbarItems = () => {
       <NavbarItem itemText="Servicios" />
       <NavbarItem itemText="Proyectos" />
       <NavbarItem itemText="Equipo" />
-      <NavbarItem itemText="Opiniones" />
     </>
   );
 };

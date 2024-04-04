@@ -10,6 +10,10 @@
 .card {
     height: 250px;
 
+    @media (max-width: 767px) {
+        height: 320px; 
+    }
+
     .left-side {
         display: flex;
         flex-direction: column;
@@ -18,8 +22,13 @@
 
     .card-title {
         width: 80%;
-        font-size: 35px;
+        font-size: calc(1rem + 1vw);
         line-height: normal;
+
+        @media (max-width: 767px) {
+            width: 100%;
+            margin-bottom: 20px;
+        }
     }
 
     .btn {
