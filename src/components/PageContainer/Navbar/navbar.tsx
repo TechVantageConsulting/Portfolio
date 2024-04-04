@@ -1,6 +1,6 @@
 import logo from "../../../assets/logo.png";
 import { NavbarItems } from "./navbarItems";
-import './navbar.scss'
+import "./navbar.scss";
 
 export const Navbar = () => {
   return (
@@ -35,7 +35,7 @@ export const Navbar = () => {
           href="#page-container"
         >
           <img className="w-12 mr-1" src={logo} alt="logo" />
-          <h1>Tech Vantage Consulting</h1>
+          <h1 className="hidden sm:block">Tech Vantage Consulting</h1>
         </a>
       </div>
       <div className="navbar-center hidden lg:flex">

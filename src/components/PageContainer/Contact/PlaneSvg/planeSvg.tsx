@@ -3,7 +3,7 @@ import "./planeSvg.scss";
 export const PlaneSvg = () => {
   return (
     <svg
-      className="plane-svg"
+      className="plane-svg hidden md:block"
       width="400"
       height="145"
       viewBox="0 0 400 145"

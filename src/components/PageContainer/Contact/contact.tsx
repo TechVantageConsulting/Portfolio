@@ -6,9 +6,9 @@ import { PlaneSvg } from "./PlaneSvg/planeSvg";
 
 export const Contact = () => {
   return (
-    <div className="card mt-20 blue-bg">
-      <div className="card-body flex flex-row">
-        <div className="left-side w-1/2">
+    <div className="card mt-8 md:mt-20 blue-bg">
+      <div className="card-body flex flex-col md:flex-row">
+        <div className="left-side w-full md:w-1/2">
           <h2 className="card-title">
             Let's talk about your goals! We will get back to you asap.
           </h2>
@@ -23,8 +23,8 @@ export const Contact = () => {
             </form>
           </label>
         </div>
-        <div className="right-side w-1/2 text-end relative">
-          <div className="absolute right-0">
+        <div className="right-side w-full md:w-1/2 text-end relative mt-8 md:mt-0">
+          <div className="absolute left-0 md:left-auto md:right-0">
             <p className="mb-4 flex justify-start font-semibold">
               <img className="mr-2" src={whatsapp} alt="whatsapp" />
               <span>Llamanos al: 423423423</span>
