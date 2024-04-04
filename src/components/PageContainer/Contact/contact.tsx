@@ -2,6 +2,8 @@ import "./contact.scss";
 import check from "../../../assets/Icons/check.png";
 import whatsapp from "../../../assets/Icons/whatsapp.png";
 import email from "../../../assets/Icons/email.png";
+import { PlaneSvg } from "./PlaneSvg/planeSvg";
+
 export const Contact = () => {
   return (
     <div className="card mt-20 blue-bg">
@@ -37,6 +39,7 @@ export const Contact = () => {
             </p>
           </div>
         </div>
+        <PlaneSvg />
       </div>
     </div>
   );
