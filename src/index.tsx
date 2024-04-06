@@ -11,8 +11,7 @@ import { Members } from "./components/PageContainer/Members/members";
 import { Projects } from "./components/PageContainer/Projects/projects";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
-  // TODO: REMOVE
-  <React.StrictMode>
+  <>
     <Navbar />
     <HeroSection />
     <Companies />
@@ -21,5 +20,5 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
     <Members />
     <Contact />
     <Footer />
-  </React.StrictMode>
+  </>
 );
