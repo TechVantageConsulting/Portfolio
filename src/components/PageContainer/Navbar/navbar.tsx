@@ -44,7 +44,7 @@ export const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a href="#contact" className="btn custom-bg-button text-lg">CONTACTANOS</a>
+        <a href="#contact" className="btn custom-bg-button text-lg">CONTACTENOS</a>
       </div>
     </div>
   );

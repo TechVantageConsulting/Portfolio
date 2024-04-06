@@ -1,4 +1,3 @@
-import "./members.scss";
 import members from "../../../assets/Members/members.png";
 
 export function Members() {
@@ -28,23 +27,23 @@ export function Members() {
           </div>
 
           <div className="grid grid-cols-2 sm:gap-x-6 lg:gap-x-0 lg:mb-8">
-            <div className="custom-bg-gray shadow-lg col-span-2 flex flex-col items-center justify-center py-4 rounded-lg mb-8 sm:col-span-1 sm:mb-6 lg:mb-0 lg:mr-8">
+            <div className="gray-bg shadow-lg col-span-2 flex flex-col items-center justify-center py-4 rounded-lg mb-8 sm:col-span-1 sm:mb-6 lg:mb-0 lg:mr-8">
               <h3 className="text-3xl font-bold ">10+</h3>
               <p className="text-lg ">Years of experience</p>
             </div>
 
-            <div className="custom-bg-purple shadow-lg col-span-2 flex flex-col items-center justify-center py-4 rounded-lg mb-8 sm:col-span-1 sm:mb-6 lg:mb-0 lg:mr-8">
+            <div className="blue-bg shadow-lg col-span-2 flex flex-col items-center justify-center py-4 rounded-lg mb-8 sm:col-span-1 sm:mb-6 lg:mb-0 lg:mr-8">
               <h3 className="text-3xl font-bold text-white">1.2K</h3>
               <p className="text-lg text-white">Happy customers</p>
             </div>
           </div>
           <div className="grid grid-cols-2 sm:gap-x-6 lg:gap-x-0">
-            <div className="custom-bg-gray shadow-lg col-span-2 flex flex-col items-center justify-center py-4 rounded-lg mb-8 sm:col-span-1 sm:mb-6 lg:mb-0 lg:mr-8">
+            <div className="gray-bg shadow-lg col-span-2 flex flex-col items-center justify-center py-4 rounded-lg mb-8 sm:col-span-1 sm:mb-6 lg:mb-0 lg:mr-8">
               <h3 className="text-3xl font-bold ">10+</h3>
               <p className="text-lg ">Years of experience</p>
             </div>
 
-            <div className="custom-bg-purple shadow-lg col-span-2 flex flex-col items-center justify-center py-4 rounded-lg mb-8 sm:col-span-1 sm:mb-6 lg:mb-0 lg:mr-8">
+            <div className="blue-bg shadow-lg col-span-2 flex flex-col items-center justify-center py-4 rounded-lg mb-8 sm:col-span-1 sm:mb-6 lg:mb-0 lg:mr-8">
               <h3 className="text-3xl font-bold text-white">1.2K</h3>
               <p className="text-lg text-white">Happy customers</p>
             </div>
