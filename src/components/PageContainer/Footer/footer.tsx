@@ -1,10 +1,7 @@
-import PageContainer from "../pageContainer";
-
 export function Footer() {
   return (
     <div className="bg-black">
-      <PageContainer>
-        <div className="lg:grid lg:grid-cols-2 text-white">
+        <div className="page-container lg:grid lg:grid-cols-2 text-white md:pt-[70px]">
           <aside className="px-10 pt-10 flex justify-center items-center lg:p-10">
             <svg
               version="1.0"
@@ -243,7 +240,6 @@ l43 -46 0 -79 c0 -66 -4 -84 -24 -115 -44 -67 -139 -73 -196 -12 -21 22 -24
             </div>
           </div>
         </div>
-      </PageContainer>
     </div>
   );
 }

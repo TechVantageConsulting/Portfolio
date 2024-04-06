@@ -8,6 +8,12 @@ body {
   color: $gray;
 }
 
+.page-container {
+  max-width: 1340px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
 .custom-bg-button {
   background-color: $pink;
   color: white;

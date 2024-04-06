@@ -2,9 +2,12 @@ import "./projects.scss";
 
 export function Projects() {
   return (
-    <div>
+    <div className="page-container mt-12 md:mt-28">
+      <h1 className="text-6xl font-bold pb-10 text-black md:text-center lg:mr-8 lg:pb-14 mb-8">
+      Proyectos
+      </h1>
       {/* proyecto-1 */}
-      <div className="grid grid-cols-2 ">
+      <div className="grid grid-cols-2 mb-10">
         <div className="col-span-2 grid grid-cols-1 lg:col-span-1">
           <div className="bg-gray-300 rounded-2xl p-4 lg:rounded-3xl lg:p-8 lg:pr-0">
             <h2 className="text-4xl font-bold pb-10 text-black sm:text-6xl md:text-7xl  xl:text-8xl lg:mr-8 lg:pb-14 tracking-wider">

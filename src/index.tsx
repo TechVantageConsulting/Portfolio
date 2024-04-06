@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.scss";
-import PageContainer from "./components/PageContainer/pageContainer";
 import { Navbar } from "./components/PageContainer/Navbar/navbar";
 import { HeroSection } from "./components/PageContainer/HeroSection/heroSection";
 import { Companies } from "./components/PageContainer/Companies/companies";
@@ -14,17 +13,13 @@ import { Projects } from "./components/PageContainer/Projects/projects";
 ReactDOM.createRoot(document.getElementById("root")!).render(
   // TODO: REMOVE
   <React.StrictMode>
-    <PageContainer>
-      <Navbar />
-      {/* <HeroSection /> */}
-    </PageContainer>
-    {/* <Companies /> */}
-    <PageContainer>
-      {/* <Projects /> */}
-      <Members />
-      {/* <Contact /> */}
-    </PageContainer>
-    {/* <Services /> */}
-    {/* <Footer /> */}
+    <Navbar />
+    <HeroSection />
+    <Companies />
+    <Services />
+    <Projects />
+    <Members />
+    <Contact />
+    <Footer />
   </React.StrictMode>
 );
