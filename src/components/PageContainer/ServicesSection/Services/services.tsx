@@ -35,7 +35,7 @@ export function Services() {
       />
       <ServiceItem
         title="Gestión de Contenidos"
-        description="Nuestro equipo se dedica a la creación y gestión de contenido diseñado específicamente para tu sitio web o aplicación móvil. Garantizamos que cada pieza los contenidos sean coherenten y valiosos para su audiencia, ayudándole a alcanzar sus objetivos y fortalecer su presencia en línea."
+        description="Nuestro equipo se dedica a la creación y gestión de contenido diseñado específicamente para su web o app. Garantizamos que los contenidos sean coherenten y valiosos para su audiencia, ayudándole a alcanzar sus objetivos y fortalecer su presencia en línea."
         image={<ItemImage image={book} description="book" />}
       />
       <ServiceItem
@@ -47,6 +47,7 @@ export function Services() {
         image={<ItemImage image={idea} description="idea" />}
       />
       <ServiceItem
+        classname="pb-10"
         title="Soporte y Mantenimiento Continuo"
         description="Nos comprometemos a brindarte un soporte técnico continuo para
         garantizar el funcionamiento sin problemas de tu presencia en línea.

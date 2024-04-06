@@ -39,7 +39,7 @@ export const Contact = () => {
       <div className="card-body flex flex-col md:flex-row">
         <div className="left-side w-full md:w-1/2">
           <h2 className="card-title">
-            Let's talk about your goals! We will get back to you asap.
+           Escriba su correo y le contactaremos enseguida.
           </h2>
           <label className="form-control w-full max-w-md">
             <form className="flex-center">
@@ -65,7 +65,7 @@ export const Contact = () => {
           <div className="absolute left-0 md:left-auto md:right-0">
             <p className="mb-4 flex justify-start font-semibold">
               <img className="mr-2" src={whatsapp} alt="whatsapp" />
-              <span>Llamanos al: 423423423</span>
+              <span>Llamanos al: ????????</span>
             </p>
             <p className="mb-4 flex justify-start font-semibold">
               <img className="mr-2" src={check} alt="check" />
@@ -73,7 +73,7 @@ export const Contact = () => {
             </p>
             <p className="mb-4 flex justify-start font-semibold">
               <img className="mr-2" src={emailIcon} alt="email" />
-              <span>Email: bladfsabla@gmail.com</span>
+              <span>Email: techvantageconsulting.team@gmail.com</span>
             </p>
           </div>
         </div>
