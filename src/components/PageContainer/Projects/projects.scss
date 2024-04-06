@@ -1,5 +1,23 @@
 @import "../../../variables";
 
-.custom-bg-purple {
-  color: $blue;
+.custom-bg-img {
+  /* Establecer la imagen de fondo */
+  background-image: url("../../../assets/Projects/adri-img.jpg");
+  /* Establecer el tamaño del fondo (opcional) */
+  background-size: cover;
+  /* Establecer la posición del fondo (opcional) */
+  background-position: top;
+  /* Establecer que el fondo se repita (opcional) */
+  background-repeat: no-repeat;
+}
+
+.custom-bg-img-bot {
+  /* Establecer la imagen de fondo */
+  background-image: url("../../../assets/Projects/adri-img.jpg");
+  /* Establecer el tamaño del fondo (opcional) */
+  background-size: cover;
+  /* Establecer la posición del fondo (opcional) */
+  background-position: center;
+  /* Establecer que el fondo se repita (opcional) */
+  background-repeat: no-repeat;
 }

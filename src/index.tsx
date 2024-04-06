@@ -20,11 +20,11 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
     </PageContainer>
     {/* <Companies /> */}
     <PageContainer>
-      <Projects />
-      {/* <Members /> */}
-      {/* <Services /> */}
+      {/* <Projects /> */}
+      <Members />
       {/* <Contact /> */}
-      {/* <Footer /> */}
     </PageContainer>
+    {/* <Services /> */}
+    {/* <Footer /> */}
   </React.StrictMode>
 );
