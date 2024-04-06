@@ -2,7 +2,7 @@ import "./projects.scss";
 
 export function Projects() {
   return (
-    <div className="page-container mt-12 md:mt-28">
+    <div id='projects' className="page-container mt-12 md:mt-28">
       <h1 className="text-6xl font-bold pb-10 text-black md:text-center lg:mr-8 lg:pb-14 mb-8">
       Proyectos
       </h1>

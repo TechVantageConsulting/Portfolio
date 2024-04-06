@@ -11,7 +11,7 @@ export const HeroSection = () => {
         get hired, and advance your career.
       </p>
       <div className="text-center mt-8">
-        <a className="btn custom-bg-button text-lg">CONTACTANOS</a>
+        <a className="btn custom-bg-button text-lg" href="#contact">CONTACTANOS</a>
       </div>
       <div className="mt-24">
         <img className="ml-2" src={compound} alt="compound" />

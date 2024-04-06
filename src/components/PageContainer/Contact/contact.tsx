@@ -35,7 +35,7 @@ export const Contact = () => {
   };
 
   return (
-    <div className="page-container card mt-8 md:mt-20 blue-bg">
+    <div id="contact" className="page-container card mt-8 md:mt-20 blue-bg">
       <div className="card-body flex flex-col md:flex-row">
         <div className="left-side w-full md:w-1/2">
           <h2 className="card-title">

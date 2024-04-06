@@ -3,7 +3,7 @@ import members from "../../../assets/Members/members.png";
 
 export function Members() {
   return (
-    <div className="page-container mt-12 md:mt-28">
+    <div id='team' className="page-container mt-12 md:mt-28">
       <h1 className="text-6xl font-bold pb-10 text-black md:text-center lg:mr-8 lg:pb-14">
       Quienes somos
       </h1>
