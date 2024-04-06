@@ -1,14 +1,18 @@
 @import "../../../variables";
 
-.card * {
-    color: white;
-
-
-
-}
-
 .card {
+    margin-bottom: -50px;
+    color: white;
     height: 250px;
+
+    .card-body {
+        padding: 15px;
+    }
+
+    @media (max-width: 767px) {
+        height: 320px;
+        margin-bottom: 0;
+    }
 
     .left-side {
         display: flex;
@@ -18,8 +22,13 @@
 
     .card-title {
         width: 80%;
-        font-size: 35px;
+        font-size: calc(1rem + 1vw);
         line-height: normal;
+
+        @media (max-width: 767px) {
+            width: 100%;
+            margin-bottom: 20px;
+        }
     }
 
     .btn {

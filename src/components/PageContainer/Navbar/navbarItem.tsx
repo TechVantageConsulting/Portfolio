@@ -1,9 +1,11 @@
-type Props = { itemText: string };
+type Props = { link: string; itemText: string };
 
-export const NavbarItem = ({ itemText }: Props) => {
+export const NavbarItem = ({ link, itemText }: Props) => {
   return (
     <li className="px-5">
-      <a className="custom-no-bg-button pb-1">{itemText}</a>
+      <a href={link} className="custom-no-bg-button pb-1">
+        {itemText}
+      </a>
     </li>
   );
 };

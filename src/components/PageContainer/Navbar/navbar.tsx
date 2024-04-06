@@ -1,10 +1,10 @@
 import logo from "../../../assets/logo.png";
 import { NavbarItems } from "./navbarItems";
-import './navbar.scss'
+import "./navbar.scss";
 
 export const Navbar = () => {
   return (
-    <div className="navbar bg-base-100">
+    <div className="page-container navbar bg-base-100">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -35,7 +35,7 @@ export const Navbar = () => {
           href="#page-container"
         >
           <img className="w-12 mr-1" src={logo} alt="logo" />
-          <h1>Tech Vantage Consulting</h1>
+          <h1 className="hidden sm:block">Tech Vantage Consulting</h1>
         </a>
       </div>
       <div className="navbar-center hidden lg:flex">
@@ -44,7 +44,7 @@ export const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn custom-bg-button text-lg">CONTACTANOS</a>
+        <a href="#contact" className="btn custom-bg-button text-lg">CONTACTENOS</a>
       </div>
     </div>
   );
