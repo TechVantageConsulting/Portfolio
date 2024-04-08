@@ -8,6 +8,10 @@ body {
   color: $gray;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .page-container {
   max-width: 1340px;
   margin: 0 auto;
