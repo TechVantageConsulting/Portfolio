@@ -32,7 +32,7 @@ export const Navbar = () => {
         </div>
         <a
           className="flex-center font-medium text-xl flex pl-0"
-          href="#page-container"
+          href="#"
         >
           <img className="w-12 mr-1" src={logo} alt="logo" />
           <h1 className="hidden sm:block">Tech Vantage Consulting</h1>
