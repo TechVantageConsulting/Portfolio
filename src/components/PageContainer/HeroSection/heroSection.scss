@@ -35,4 +35,25 @@
         margin: 0 auto;
         margin-top: 50px;
     }
+
+    .cursor {
+        display: inline-block;
+        width: 8px;
+        margin-left: 4px;
+        background: $pink;
+      }
+      
+      .cursor.blink {
+        animation: blink 0.8s ease-in-out infinite;
+      }
+      
+      @keyframes blink {
+        0%, 100% {
+          background: $pink;
+        }
+        40%, 50% {
+          background: transparent;
+        }
+      }
+      
 }
