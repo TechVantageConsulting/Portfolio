@@ -130,7 +130,7 @@ l43 -46 0 -79 c0 -66 -4 -84 -24 -115 -44 -67 -139 -73 -196 -12 -21 22 -24
               </g>
             </svg>
           </aside>
-          {/*contenedor de los navs */}
+          {/*contenedor de los navs 
           <div className="grid grid-cols-2 text-lg sm:grid-cols-3 font-light">
             <div className="text-left px-10 pt-10 leading-8 sm:p-10">
               <nav className="flex flex-col">
@@ -159,9 +159,10 @@ l43 -46 0 -79 c0 -66 -4 -84 -24 -115 -44 -67 -139 -73 -196 -12 -21 22 -24
               </nav>
             </div>
           </div>
-          {/*  bottom footer */}
+          */}
+          {/*  bottom footer 
           <div className="grid grid-cols-4 col-span-2">
-            {/* icons */}
+            {/* icons 
             <div className="grid grid-flow-col gap-4 col-span-4 px-10 py-8 border-t place-items-center text-white sm:col-span-2 lg:col-span-1 lg:pt-4 lg:pb-0">
               <a>
                 <svg
@@ -230,15 +231,21 @@ l43 -46 0 -79 c0 -66 -4 -84 -24 -115 -44 -67 -139 -73 -196 -12 -21 22 -24
                 </svg>
               </a>
             </div>
+
             <div className="grid grid-cols-3 place-items-center col-span-4 px-10 py-8 text-center border-t sm:col-span-2 lg:pt-4 lg:pb-0">
               <a className="link link-hover">Terms of use</a>
               <a className="link link-hover">Privacy policy</a>
               <a className="link link-hover">Cookie policy</a>
             </div>
-            <div className="grid col-span-4 place-items-center px-10 pt-8 pb-2 text-center font-bold border-t lg:col-span-1 lg:pt-4 lg:pb-0">
+            */}
+
+            <div className="grid col-span-4 place-items-center px-10 pt-8 pb-2 text-center font-bold lg:col-span-1 lg:pt-4 lg:pb-0">
               Copyright © 2024 - Tech Vantage Consulting
             </div>
+          
+          {/*
           </div>
+          */}
         </div>
     </div>
   );
