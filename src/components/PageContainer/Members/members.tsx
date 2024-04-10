@@ -9,24 +9,22 @@ export function Members() {
       <div className=" grid grid-cols-2 text-white ">
         <div className="col-span-2 grid grid-cols-1 lg:col-span-1">
           <div>
-            <h3 className="text-lg font-bold pb-3 text-black">
-              CONÓCENOS
-            </h3>
+            <h3 className="text-lg font-bold pb-3 text-black">CONÓCENOS</h3>
             <h4 className="text-3xl font-semibold text-black">
               Expertos en el mundo digital
             </h4>
             <p className="text-lg mb-6 text-black lg:mr-8 lg:pt-6">
-              Nos apasiona ayudar a empresas
-              de todos los tamaños a alcanzar su máximo potencial en el mundo
-              digital. Con años de experiencia en diseño web, desarrollo de
-              aplicaciones móviles y consultoría tecnológica, nuestro equipo
-              está dedicado a ofrecer soluciones innovadoras y personalizadas
-              que impulsen el éxito de nuestros clientes. Nos comprometemos a
-              proporcionar un servicio excepcional, colaborando estrechamente
-              con nuestros clientes para entender sus necesidades y ofrecer
-              resultados sobresalientes. Tu éxito es nuestra prioridad, y
-              estamos aquí para acompañarte en cada paso del camino hacia el
-              crecimiento y la excelencia en línea.
+              Nos apasiona ayudar a empresas de todos los tamaños a alcanzar su
+              máximo potencial en el mundo digital. Con años de experiencia en
+              diseño web, desarrollo de aplicaciones móviles y consultoría
+              tecnológica, nuestro equipo está dedicado a ofrecer soluciones
+              innovadoras y personalizadas que impulsen el éxito de nuestros
+              clientes. Nos comprometemos a proporcionar un servicio
+              excepcional, colaborando estrechamente con nuestros clientes para
+              entender sus necesidades y ofrecer resultados sobresalientes. Tu
+              éxito es nuestra prioridad, y estamos aquí para acompañarte en
+              cada paso del camino hacia el crecimiento y la excelencia en
+              línea.
             </p>
           </div>
 

@@ -3,7 +3,7 @@ import check from "../../../assets/Icons/check.png";
 import whatsapp from "../../../assets/Icons/whatsapp.png";
 import { PlaneSvg } from "./PlaneSvg/planeSvg";
 import emailIcon from "../../../assets/Icons/email.png";
-import emailjs from "@emailjs/browser";
+// import emailjs from "@emailjs/browser";
 import { useState } from "react";
 
 export const Contact = () => {
@@ -35,49 +35,51 @@ export const Contact = () => {
   };
 
   return (
-    <div id="contact" className="page-container card mt-8 md:mt-20 blue-bg">
-      <div className="card-body flex flex-col md:flex-row">
-        <div className="left-side w-full md:w-1/2">
-          <h2 className="card-title">
-           Escriba su correo y le contactaremos enseguida.
-          </h2>
-          <label className="form-control w-full max-w-md">
-            <form className="flex-center">
-              <input
-                type="text"
-                placeholder="Su correo electrónico"
-                className="input input-bordered w-full max-w-md"
-                value={email}
-                onChange={(event) => {
-                  setEmail(event.target.value);
-                }}
-              />
-              <button
-                onClick={sendEmail}
-                className="btn custom-bg-button ml-2 w-24"
-              >
-                ENVIAR
-              </button>
-            </form>
-          </label>
-        </div>
-        <div className="right-side w-full md:w-1/2 text-end relative mt-8 md:mt-0">
-          <div className="absolute left-0 md:left-auto md:right-0">
-            <p className="mb-4 flex justify-start font-semibold">
-              <img className="mr-2" src={whatsapp} alt="whatsapp" />
-              <span>Llamanos al: ????????</span>
-            </p>
-            <p className="mb-4 flex justify-start font-semibold">
-              <img className="mr-2" src={check} alt="check" />
-              <span>Disponibles las 24/7</span>
-            </p>
-            <p className="mb-4 flex justify-start font-semibold">
-              <img className="mr-2" src={emailIcon} alt="email" />
-              <span>Email: techvantageconsulting.team@gmail.com</span>
-            </p>
+    <div id="contact" className="page-container">
+      <div className="card md:mt-20 blue-bg">
+        <div className="card-body flex flex-col md:flex-row">
+          <div className="left-side w-full md:w-1/2">
+            <h2 className="card-title">
+              Escriba su correo y le contactaremos enseguida.
+            </h2>
+            <label className="form-control w-full max-w-md">
+              <form className="flex-center">
+                <input
+                  type="text"
+                  placeholder="Su correo electrónico"
+                  className="input input-bordered w-full max-w-md"
+                  value={email}
+                  onChange={(event) => {
+                    setEmail(event.target.value);
+                  }}
+                />
+                <button
+                  onClick={sendEmail}
+                  className="btn custom-bg-button ml-2 w-24"
+                >
+                  ENVIAR
+                </button>
+              </form>
+            </label>
           </div>
+          <div className="right-side w-full md:w-1/2 text-end relative mt-8 md:mt-0">
+            <div className="absolute left-0 md:left-auto md:right-0">
+              <p className="mb-4 flex justify-start font-semibold">
+                <img className="mr-2" src={whatsapp} alt="whatsapp" />
+                <span>????????</span>
+              </p>
+              <p className="mb-4 flex justify-start font-semibold">
+                <img className="mr-2" src={check} alt="check" />
+                <span>Disponibles las 24/7</span>
+              </p>
+              <p className="mb-4 flex justify-start font-semibold">
+                <img className="mr-2" src={emailIcon} alt="email" />
+                <span>techvantageconsulting.team@gmail.com</span>
+              </p>
+            </div>
+          </div>
+          <PlaneSvg />
         </div>
-        <PlaneSvg />
       </div>
     </div>
   );

@@ -2,9 +2,9 @@ import "./projects.scss";
 
 export function Projects() {
   return (
-    <div id='projects' className="page-container mt-12 md:mt-28">
-      <h1 className="text-6xl font-bold pb-10 text-black md:text-center lg:mr-8 lg:pb-14 mb-8">
-      Proyectos
+    <div id="projects" className="page-container mt-12 md:mt-28">
+      <h1 className="text-5xl font-bold pb-10 text-black md:text-center lg:mr-8 lg:pb-14 mb-8">
+        Proyectos
       </h1>
       {/* proyecto-1 */}
       <div className="grid grid-cols-2 mb-10">
