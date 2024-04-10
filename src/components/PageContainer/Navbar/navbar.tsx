@@ -35,7 +35,7 @@ export const Navbar = () => {
           href="#"
         >
           <img className="w-12 mr-1" src={logo} alt="logo" />
-          <h1 className="hidden sm:block">Tech Vantage Consulting</h1>
+          <h1 className="hidden lg:block">Tech Vantage Consulting</h1>
         </a>
       </div>
       <div className="navbar-center hidden lg:flex">
