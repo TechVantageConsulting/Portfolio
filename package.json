@@ -5,7 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "deploy": "npm run rm-docs && npm run build && npm run copy-files",
     "build": "tsc && vite build && move dist docs",
+    "rm-docs": "node ./gh_utils/rm_docs.js",
+    "copy-files": "node ./gh_utils/copy_files.js",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
