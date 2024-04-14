@@ -2,19 +2,21 @@ import "./projects.scss";
 
 export function Projects() {
   return (
-    <div id="projects" className="page-container mt-12 md:mt-28">
-      <h1 className="text-5xl font-bold pb-10 text-black md:text-center lg:mr-8 lg:pb-14 mb-8">
+    <div id="projects" className="page-container mt-12 md:mt-14 lg:mt-16">
+      <h1 className="text-3xl text-center font-bold pb-10 text-black my-10 sm:text-5xl md:text-6xl lg:mr-8 lg:pb-14">
         Proyectos
       </h1>
       {/* proyecto-1 */}
       <div className="grid grid-cols-2 mb-10">
         <div className="col-span-2 grid grid-cols-1 lg:col-span-1">
           <div className="bg-gray-300 rounded-2xl p-4 lg:rounded-3xl lg:p-8 lg:pr-0">
-            <h2 className="text-4xl font-bold pb-10 text-black sm:text-6xl md:text-7xl  xl:text-8xl lg:mr-8 lg:pb-14 tracking-wider">
+            <h2 className="text-2xl font-bold pb-10 text-black sm:text-3xl md:text-5xl lg:mr-8 lg:pb-14 tracking-wider">
               New goals require new knowledge
             </h2>
-            <p className="text-lg text-black lg:mr-8 lg:pt-6 lg:mr-80">
+            <p className="text-lg text-black lg:mr-8 lg:pt-6 lg:mr-60 xl:mr-80">
               We have created and e-learning platform that allows teams to
+              finci, share, and use the knowledge they need to achieve their
+              goals.We have created and e-learning platform that allows teams to
               finci, share, and use the knowledge they need to achieve their
               goals.
             </p>
@@ -34,11 +36,13 @@ export function Projects() {
         <div className="custom-bg-img rounded-2xl min-h-[500px] col-span-2 mt-4 sm:min-h-[666px] md:min-h-[778px] lg:col-span-1 lg:mt-0 lg:mt-4 lg:rounded-3xl"></div>
         <div className="col-span-2 grid grid-cols-1 lg:col-span-1 lg:ml-4">
           <div className="bg-gray-300 rounded-2xl p-4 lg:rounded-3xl lg:p-8 lg:pr-0 mt-4">
-            <h2 className="text-4xl font-bold pb-10 text-black sm:text-6xl md:text-7xl  xl:text-8xl lg:mr-8 lg:pb-14 tracking-wider">
+            <h2 className="text-2xl font-bold pb-10 text-black sm:text-3xl md:text-5xl  lg:mr-8 lg:pb-14 tracking-wider">
               New goals require new knowledge
             </h2>
-            <p className="text-lg text-black lg:mr-8 lg:pt-6 lg:mr-80">
+            <p className="text-lg text-black lg:mr-8 lg:pt-6 lg:mr-60 xl:mr-80">
               We have created and e-learning platform that allows teams to
+              finci, share, and use the knowledge they need to achieve their
+              goals.We have created and e-learning platform that allows teams to
               finci, share, and use the knowledge they need to achieve their
               goals.
             </p>

@@ -4,5 +4,5 @@ type Props = {
 };
 
 export const ItemImage = ({ image, description }: Props) => (
-  <img src={image} alt={description} className="min-h-[75px] min-w-[75px]" />
+  <img src={image} alt={description} className="w-14" />
 );

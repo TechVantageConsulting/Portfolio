@@ -1,8 +1,8 @@
 export function Footer() {
   return (
     <div className="bg-black">
-      <div className="page-container lg:grid lg:grid-cols-2 text-white md:pt-[120px]">
-        <aside className="px-10 pt-10 flex justify-center items-center lg:p-10">
+      <div className="page-container lg:grid lg:grid-cols-2 text-white">
+        <aside className="px-10 flex justify-center items-center md:pt-10 lg:mt-12 lg:p-10 col-span-2">
           <svg
             version="1.0"
             xmlns="http://www.w3.org/2000/svg"
@@ -131,9 +131,9 @@ l43 -46 0 -79 c0 -66 -4 -84 -24 -115 -44 -67 -139 -73 -196 -12 -21 22 -24
           </svg>
         </aside>
         {/* bottom footer  */}
-        <div className="grid grid-cols-4 col-span-2">
+        <div className="grid grid-cols-2 col-span-2">
           {/* icons  */}
-          <div className="grid grid-flow-col gap-4 col-span-4 py-8 border-t place-items-center text-white sm:col-span-2 lg:col-span-1 lg:pt-4 lg:pb-0">
+          <div className="grid grid-flow-col gap-4 col-span-4 py-8 border-t place-items-center text-white sm:col-span-4 lg:col-span-1 lg:pt-12">
             <a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -191,7 +191,7 @@ l43 -46 0 -79 c0 -66 -4 -84 -24 -115 -44 -67 -139 -73 -196 -12 -21 22 -24
             </a>
           </div>
 
-          <div className="grid col-span-4 place-items-center px-10 pt-8 pb-2 text-center border-t font-bold lg:col-span-1 lg:pt-4 lg:pb-0">
+          <div className="grid col-span-4 place-items-center px-10 pt-8 pb-2 text-center border-t font-bold lg:col-span-1">
             Copyright © 2024 - Tech Vantage Consulting
           </div>
         </div>

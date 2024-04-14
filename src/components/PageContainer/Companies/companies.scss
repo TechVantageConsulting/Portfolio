@@ -1,39 +1,79 @@
-.companies-carrousel {
-    img {
-        margin: 30px 25px;
-        width: 11rem;
-        filter: grayscale(100%);
-    }
+// .companies-carrousel {
+//   img {
+//     width: 11rem;
+//     filter: grayscale(100%);
+//   }
+// }
+
+// // COMPANY IMAGES SIZE
+// @media (max-width: 1024px) {
+//     .companies-carrousel img {
+//         width: 11rem;
+//     }
+// }
+
+// @media (min-width: 1024px) and (max-width: 1100px) {
+//     .companies-carrousel img {
+//         width: 6rem;
+//     }
+// }
+
+// @media (min-width: 1100px) and (max-width: 1280px) {
+//     .companies-carrousel img {
+//         width: 7rem;
+//     }
+// }
+
+// @media (min-width: 1281px) and (max-width: 1536px) {
+//     .companies-carrousel img {
+//         width: 8rem;
+//     }
+// }
+
+// @media (min-width: 1537px) and (max-width: 1700px) {
+//     .companies-carrousel img {
+//         width: 10rem;
+//     }
+// }
+
+.slider {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  filter: grayscale(100%);
 }
 
-
-// COMPANY IMAGES SIZE 
-@media (max-width: 1024px) {
-    .companies-carrousel img {
-        width: 11rem;
-    }
+.slider .slide-track {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 140px; /* Espacio entre las imágenes */
+  animation: scroll 20s linear infinite; /* Animación para el carrusel */
+  transition: transform 1s ease-in-out; /* Transición suave para el desplazamiento */
+  transform: translateX(
+    calc(-50% + (225px + 140px) * 3.5)
+  ); /* Centra el carrusel horizontalmente */
 }
 
-@media (min-width: 1024px) and (max-width: 1100px) {
-    .companies-carrousel img {
-        width: 6rem;
-    }
+.slider .slide {
+  width: 225px; /* Ancho fijo para cada slide */
+  flex-shrink: 0; /* Evita que las imágenes se ajusten automáticamente */
 }
 
-@media (min-width: 1100px) and (max-width: 1280px) {
-    .companies-carrousel img {
-        width: 7rem;
-    }
+@keyframes scroll {
+  0% {
+    transform: translateX(0); /* Empieza sin desplazamiento */
+  }
+  100% {
+    transform: translateX(
+      calc(-225px * 7 - 140px * 6 - 112.5px)
+    ); /* Desplaza el carrusel por múltiples vueltas */
+  }
 }
 
-@media (min-width: 1281px) and (max-width: 1536px) {
-    .companies-carrousel img {
-        width: 8rem;
-    }
-}
-
-@media (min-width: 1537px) and (max-width: 1700px) {
-    .companies-carrousel img {
-        width: 10rem;
-    }
+/* Elimina el filtro de escala de grises en las imágenes */
+.slider img {
+  filter: none;
 }
