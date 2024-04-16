@@ -13,3 +13,33 @@
         border-bottom: 2px solid $pink;
     }
 }
+
+.navbar {
+    z-index: 99999;
+
+    @media (max-width: 1024px) {
+        flex-direction: row-reverse;
+    }
+}
+
+.navbar-start {
+    @media (max-width: 1024px) {
+        flex-direction: row-reverse;
+    }
+}
+
+.navbar-end {
+    @media (max-width: 1024px) {
+        justify-content: flex-start;
+    }
+}
+
+.menu {
+    @media (max-width: 1024px) {
+        width: 300px;
+    }
+}
+
+.navbar-item {
+    font-size: 24px;
+}

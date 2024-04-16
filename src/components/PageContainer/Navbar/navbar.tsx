@@ -4,9 +4,9 @@ import "./navbar.scss";
 
 export const Navbar = () => {
   return (
-    <div className="page-container navbar bg-base-100">
+    <div className="page-container navbar sticky top-0 bg-base-100 shadow">
       <div className="navbar-start">
-        <div className="dropdown">
+        <div className="dropdown dropdown-end">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -35,7 +35,7 @@ export const Navbar = () => {
           href="#"
         >
           <img className="w-12 mr-1" src={logo} alt="logo" />
-          <h1 className="hidden sm:block">Tech Vantage Consulting</h1>
+          <h1 className="hidden lg:block">Tech Vantage Consulting</h1>
         </a>
       </div>
       <div className="navbar-center hidden lg:flex">
