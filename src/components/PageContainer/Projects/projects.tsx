@@ -23,17 +23,17 @@ export function Projects() {
           </div>
           {/* left-bottom-imgs */}
           <div className="grid grid-cols-2 rb-0  mb-0 mt-4 gap-y-4 sm:gap-x-4">
-            <div className="custom-bg-img-bot min-h-32 rounded-2xl shadow-sm col-span-2 sm:col-span-1 sm:min-h-36 lg:min-h-44 lg:rounded-3xl"></div>
-            <div className="custom-bg-img-bot min-h-32 rounded-2xl shadow-sm col-span-2 sm:col-span-1 sm:min-h-36 lg:min-h-44 lg:rounded-3xl"></div>
+            <div className="first-project-second-photo min-h-32 rounded-2xl shadow-sm col-span-2 sm:col-span-1 sm:min-h-36 lg:min-h-44 lg:rounded-3xl"></div>
+            <div className="first-project-third-photo min-h-32 rounded-2xl shadow-sm col-span-2 sm:col-span-1 sm:min-h-36 lg:min-h-44 lg:rounded-3xl"></div>
           </div>
         </div>
 
-        <div className="custom-bg-img rounded-2xl min-h-[500px] col-span-2 mt-4 sm:min-h-[666px] md:min-h-[778px] lg:col-span-1 lg:mt-0 lg:ml-4 lg:rounded-3xl"></div>
+        <div className="first-project-main-photo rounded-2xl min-h-[500px] col-span-2 mt-4 sm:min-h-[666px] md:min-h-[778px] lg:col-span-1 lg:mt-0 lg:ml-4 lg:rounded-3xl"></div>
       </div>
 
       {/* proyecto 2 */}
       <div className="grid grid-cols-2 ">
-        <div className="custom-bg-img rounded-2xl min-h-[500px] col-span-2 mt-4 sm:min-h-[666px] md:min-h-[778px] lg:col-span-1 lg:mt-0 lg:mt-4 lg:rounded-3xl"></div>
+        <div className="second-project-main-photo rounded-2xl min-h-[500px] col-span-2 mt-4 sm:min-h-[666px] md:min-h-[778px] lg:col-span-1 lg:mt-0 lg:mt-4 lg:rounded-3xl"></div>
         <div className="col-span-2 grid grid-cols-1 lg:col-span-1 lg:ml-4">
           <div className="bg-gray-300 rounded-2xl p-4 lg:rounded-3xl lg:p-8 lg:pr-0 mt-4">
             <h2 className="text-2xl font-bold pb-10 text-black sm:text-3xl md:text-5xl  lg:mr-8 lg:pb-14 tracking-wider">
@@ -49,8 +49,8 @@ export function Projects() {
           </div>
           {/* right-bottom-imgs */}
           <div className="grid grid-cols-2 rb-0  mb-0 mt-4 gap-y-4 sm:gap-x-4">
-            <div className="custom-bg-img-bot min-h-32 rounded-2xl shadow-sm col-span-2 sm:col-span-1 sm:min-h-36 lg:min-h-44 lg:rounded-3xl"></div>
-            <div className="custom-bg-img-bot min-h-32 rounded-2xl shadow-sm col-span-2 sm:col-span-1 sm:min-h-36 lg:min-h-44 lg:rounded-3xl"></div>
+            <div className="second-project-second-photo min-h-32 rounded-2xl shadow-sm col-span-2 sm:col-span-1 sm:min-h-36 lg:min-h-44 lg:rounded-3xl"></div>
+            <div className="second-project-third-photo min-h-32 rounded-2xl shadow-sm col-span-2 sm:col-span-1 sm:min-h-36 lg:min-h-44 lg:rounded-3xl"></div>
           </div>
         </div>
       </div>
