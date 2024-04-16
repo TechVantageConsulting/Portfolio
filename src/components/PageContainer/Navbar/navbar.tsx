@@ -4,8 +4,8 @@ import "./navbar.scss";
 
 export const Navbar = () => {
   return (
-    <div>
-      <div className="page-container navbar sticky top-0 bg-base-100 shadow">
+    <div className="sticky top-0 bg-base-100 shadow">
+      <div className="page-container navbar">
         <div className="navbar-start">
           <div className="dropdown dropdown-end">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

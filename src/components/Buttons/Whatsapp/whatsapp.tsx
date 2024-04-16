@@ -18,7 +18,7 @@ export const Whatsapp = () => {
 
     if (isMobile && link) {
       link.href =
-        "whatsapp://send?phone=+34666006600&text=Estoy%20interesado%20en%20sus%20servicios%20digitales%20.%20https%3A%2F%2Fwww.techvantageconsulting.com";
+        "https://wa.me/+34666006600?text=Estoy%20interesado%20en%20sus%20servicios%20digitales%20.%20https%3A%2F%2Fwww.techvantageconsulting.com";
     }
   }, []);
 
