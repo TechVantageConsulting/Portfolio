@@ -5,7 +5,7 @@ import WhatsappSVG from "./whatsapp.svg";
 export const Whatsapp = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [isMobile, setIsMobile] = useState(
-    "https://web.whatsapp.com/send?phone=+34666006600&amp;text=Estoy%20interesado%20en%20sus%20servicios%20digitales%20.%20https%3A%2F%2Fwww.techvantageconsulting.com"
+    "https://web.whatsapp.com/send?phone=+34666006600&text=Estoy%20interesado%20en%20sus%20servicios%20digitales.%20https%3A%2F%2Fwww.techvantageconsulting.com"
   );
 
   useEffect(() => {
