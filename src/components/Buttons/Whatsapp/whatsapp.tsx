@@ -4,6 +4,9 @@ import WhatsappSVG from "./whatsapp.svg";
 
 export const Whatsapp = () => {
   const [isVisible, setIsVisible] = useState(false);
+  const [isMobile, setIsMobile] = useState(
+    "https://web.whatsapp.com/send?phone=+34666006600&amp;text=Estoy%20interesado%20en%20sus%20servicios%20digitales%20.%20https%3A%2F%2Fwww.techvantageconsulting.com"
+  );
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
@@ -14,11 +17,11 @@ export const Whatsapp = () => {
 
   useEffect(() => {
     const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-    const link = document.querySelector(".whatsapp") as HTMLAnchorElement;
 
-    if (isMobile && link) {
-      link.href =
-        "https://wa.me/+34666006600?text=Estoy%20interesado%20en%20sus%20servicios%20digitales%20.%20https%3A%2F%2Fwww.techvantageconsulting.com";
+    if (isMobile) {
+      setIsMobile(
+        "https://wa.me/+34666006600?text=Estoy%20interesado%20en%20sus%20servicios%20digitales%20.%20https%3A%2F%2Fwww.techvantageconsulting.com"
+      );
     }
   }, []);
 
@@ -35,7 +38,7 @@ export const Whatsapp = () => {
       {isVisible && (
         <a
           className="whatsapp btn custom-bg-button"
-          href="https://web.whatsapp.com/send?phone=+34666006600&amp;text=Estoy%20interesado%20en%20sus%20servicios%20digitales%20.%20https%3A%2F%2Fwww.techvantageconsulting.com"
+          href={isMobile}
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
