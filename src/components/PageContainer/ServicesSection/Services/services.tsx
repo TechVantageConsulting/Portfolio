@@ -9,7 +9,7 @@ import { ServiceItem } from "./Service/serviceItem";
 
 export function Services() {
   return (
-    <div className="grid grid-cols-12 lg:gap-x-10">
+    <div className="grid grid-cols-6 gap-y-4 ">
       <ServiceItem
         title="Diseño Web Personalizado"
         description="Creamos sitios web a medida que reflejan la identidad de tu marca y
@@ -48,7 +48,7 @@ export function Services() {
       />
       <ServiceItem
         classname="pb-10"
-        title="Soporte y Mantenimiento Continuo"
+        title="Mantenimientos"
         description="Nos comprometemos a brindarte un soporte técnico continuo para
         garantizar el funcionamiento sin problemas de tu presencia en línea.
         Estamos disponibles para resolver cualquier problema técnico y

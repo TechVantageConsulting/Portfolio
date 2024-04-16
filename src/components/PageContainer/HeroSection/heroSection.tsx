@@ -56,16 +56,18 @@ export const HeroSection = () => {
     };
 
     type();
-  }, []); 
+  }, []);
 
   return (
     <section className="page-container heroSection p-4 mt-8 sm:mt-12 lg:mt-16 xl:mt-24">
-      <h1>Construyendo Online</h1>
-      <h2>
+      <h1 className="text-4xl font-extrabold sm:text-5xl sm:font-bold md:text-6xl lg:text-7xl">
+        Construyendo Online
+      </h1>
+      <h2 className="text-4xl font-extrabold sm:text-5xl sm:font-bold sm:mt-2 md:text-6xl md:mt-8 md:mb-10 lg:text-7xl">
         <span className="typed-text"></span>
         <span className="cursor blink">&nbsp;</span>
       </h2>
-      <p className="mt-12 text-center text-2xl">
+      <p className="mt-12 text-center text-xl w-4/5 md:w-3/4 md:text-3xl">
         Desarrollamos la presencia digital de tu negocio desde cero, diseñando
         sitios web personalizados que reflejan la identidad de tu marca y se
         conectan con tu audiencia de manera efectiva.
@@ -75,10 +77,10 @@ export const HeroSection = () => {
           HABLEMOS
         </a>
       </div>
-      <div className="mt-24">
-        <img className="ml-2" src={compound} alt="compound" />
+      <div className="mt-14 md:mt-28">
+        <img src={compound} alt="compound" />
       </div>
-      <h3 className="font-bold text-xl md:text-4xl">
+      <h3 className="pt-10 font-bold text-left text-3xl sm:text-4xl sm:text-center sm:w-3/4 md:w-3/4 lg:w-2/3">
         Colaboramos con empresas del mundo entero, sin importar el ámbito, para
         hacer realidad sus ideas.
       </h3>
