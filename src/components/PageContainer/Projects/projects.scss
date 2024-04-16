@@ -1,23 +1,44 @@
 @import "../../../variables";
 
-.custom-bg-img {
-  /* Establecer la imagen de fondo */
-  background-image: url("../../../assets/Projects/adri-img.jpg");
-  /* Establecer el tamaño del fondo (opcional) */
+.first-project-main-photo {
   background-size: cover;
-  /* Establecer la posición del fondo (opcional) */
+}
+
+.first-project-main-photo,
+.second-project-main-photo {
   background-position: top;
-  /* Establecer que el fondo se repita (opcional) */
   background-repeat: no-repeat;
 }
 
-.custom-bg-img-bot {
-  /* Establecer la imagen de fondo */
-  background-image: url("../../../assets/Projects/adri-img.jpg");
-  /* Establecer el tamaño del fondo (opcional) */
+.first-project-second-photo,
+.first-project-third-photo,
+.second-project-second-photo,
+.second-project-third-photo {
   background-size: cover;
-  /* Establecer la posición del fondo (opcional) */
   background-position: center;
-  /* Establecer que el fondo se repita (opcional) */
   background-repeat: no-repeat;
+}
+
+.first-project-main-photo {
+  background-image: url("../../../assets/Projects/First/main.png");
+}
+
+.first-project-second-photo {
+  background-image: url("../../../assets/Projects/First/second.png");
+}
+
+.first-project-third-photo {
+  background-image: url("../../../assets/Projects/First/third.png");
+}
+
+.second-project-main-photo {
+  background-image: url("../../../assets/Projects/Second/main.png");
+}
+
+.second-project-second-photo {
+  background-image: url("../../../assets/Projects/Second/second.png");
+}
+
+.second-project-third-photo {
+  background-image: url("../../../assets/Projects/Second/third.png");
 }

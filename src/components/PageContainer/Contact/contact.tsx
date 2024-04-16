@@ -3,7 +3,7 @@ import check from "../../../assets/Icons/check.png";
 import whatsapp from "../../../assets/Icons/whatsapp.png";
 import { PlaneSvg } from "./PlaneSvg/planeSvg";
 import emailIcon from "../../../assets/Icons/email.png";
-// import emailjs from "@emailjs/browser";
+import emailjs from "@emailjs/browser";
 import { useState } from "react";
 
 export const Contact = () => {
@@ -62,7 +62,7 @@ export const Contact = () => {
               </form>
             </label>
           </div>
-          <div className="right-side w-full md:w-1/2 text-end relative mt-8 sm:mt-4 md:mt-0">
+          <div className="right-side w-full md:w-1/2 text-end relative mt-8 sm:mt-4 md:mt-0 z-10">
             <div className="absolute left-0 mt-2 md:left-auto md:right-0">
               <p className="mb-4 flex justify-start font-semibold items-center">
                 <img className="mr-2 " src={whatsapp} alt="whatsapp" />
