@@ -4,7 +4,7 @@ import "./navbar.scss";
 
 export const Navbar = () => {
   return (
-    <div className="sticky top-0 bg-white shadow ">
+    <div className="sticky top-0 bg-white shadow z-10">
       <div className="page-container navbar justify-between">
         <div className="navbar-start justify-between md:justify-normal w-[100%] md:w-[50%]">
           <div className="dropdown dropdown-end">
