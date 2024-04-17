@@ -62,7 +62,7 @@ export const Companies = () => {
   }, [currentIndex, imagesCount]);
 
   return (
-    <div className="slider">
+    <div className="slider mt-4 lg:mt-16">
       <div className="slide-track" ref={slideTrackRef}>
         {/* Mapear las imágenes con un duplicado para el carrusel infinito */}
         {images.map((image, index) => (

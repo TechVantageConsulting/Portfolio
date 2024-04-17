@@ -4,9 +4,9 @@ import "./navbar.scss";
 
 export const Navbar = () => {
   return (
-    <div className="sticky top-0 bg-base-100 shadow">
-      <div className="page-container navbar">
-        <div className="navbar-start">
+    <div className="sticky top-0 bg-white shadow ">
+      <div className="page-container navbar justify-between">
+        <div className="navbar-start justify-between md:justify-normal w-[100%] md:w-[50%]">
           <div className="dropdown dropdown-end">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
@@ -26,14 +26,14 @@ export const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-white rounded-box w-52"
             >
               <NavbarItems />
             </ul>
           </div>
-          <a className="flex-center font-medium text-xl flex pl-0" href="#">
+          <a className="flex-center font-medium text-xl flex pl-0" href="/">
             <img className="w-12 mr-1" src={logo} alt="logo" />
-            <h1 className="hidden lg:block">Tech Vantage Consulting</h1>
+            <h1 className="hidden lg:block mb-1">Tech Vantage Consulting</h1>
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">
@@ -41,8 +41,11 @@ export const Navbar = () => {
             <NavbarItems />
           </ul>
         </div>
-        <div className="navbar-end">
-          <a href="#contact" className="btn custom-bg-button text-lg">
+        <div className="navbar-end w-[0px] md:w-[50%]">
+          <a
+            href="#contact"
+            className="btn custom-bg-button text-lg hidden md:inline-flex"
+          >
             CONTACTENOS
           </a>
         </div>

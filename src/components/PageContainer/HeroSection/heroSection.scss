@@ -3,23 +3,20 @@
 .heroSection {
   h1,
   h2 {
-    // font-weight: 700;
-    line-height: 54px;
+    line-height: 61px;
     color: rgb(0, 0, 0);
     text-transform: unset;
     text-align: center;
   }
 
   h2 {
-    color: $pink;
+    color: $green;
   }
 
   > p {
-    // width: 70%;
     font-weight: 300;
     margin: 0 auto;
     margin-top: 25px;
-    // line-height: 30px;
   }
 
   .custom-bg-button {
@@ -36,9 +33,9 @@
 
   .cursor {
     display: inline-block;
-    width: 8px;
+    width: 2px;
     margin-left: 4px;
-    background: $pink;
+    background: $green;
   }
 
   .cursor.blink {
@@ -48,7 +45,7 @@
   @keyframes blink {
     0%,
     100% {
-      background: $pink;
+      background: $green;
     }
     40%,
     50% {

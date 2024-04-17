@@ -2,9 +2,10 @@ import members from "../../../assets/Members/members.png";
 
 export function Members() {
   return (
-    <div id="team" className="page-container mt-12 md:mt-28">
-      <h1 className="text-3xl font-bold pb-10 text-black text-center sm:text-5xl md:text-6xl lg:mr-8 lg:pb-14">
-        Quienes somos
+    <div id="team" className="page-container md:mt-32">
+      <h1 className="text-3xl font-bold pb-10 text-black text-center sm:text-4xl md:text-5xl lg:mr-8 lg:pb-14 mt-8 md:mt-0">
+        <span className="section-title">QUIENES SOMOS</span>
+        <div></div>
       </h1>
       <div className=" grid grid-cols-2 text-white ">
         <div className="col-span-2 grid grid-cols-1 lg:col-span-1">
@@ -12,10 +13,10 @@ export function Members() {
             <h3 className="text-md font-bold pb-3 text-black md:text-lg">
               CONÓCENOS
             </h3>
-            <h4 className="text-2xl font-semibold text-black sm:text-3xl md:text-5xl">
+            <h4 className="text-2xl font-semibold text-black sm:text-3xl md:text-4xl">
               Expertos en el mundo digital
             </h4>
-            <p className="text-lg my-8 text-black lg:mr-8 lg:pt-6 md:mt-6">
+            <p className="text-lg my-8 text-black lg:mr-8 md:mt-6">
               Nos apasiona ayudar a empresas de todos los tamaños a alcanzar su
               máximo potencial en el mundo digital. Con años de experiencia en
               diseño web, desarrollo de aplicaciones móviles y consultoría
@@ -23,7 +24,7 @@ export function Members() {
               innovadoras y personalizadas que impulsen el éxito de nuestros
               clientes. Nos comprometemos a proporcionar un servicio
               excepcional, colaborando estrechamente con nuestros clientes para
-              entender sus necesidades y ofrecer resultados sobresalientes. Tu
+              entender sus necesidades y ofrecer resultados sobresalientes. Su
               éxito es nuestra prioridad, y estamos aquí para acompañarte en
               cada paso del camino hacia el crecimiento y la excelencia en
               línea.

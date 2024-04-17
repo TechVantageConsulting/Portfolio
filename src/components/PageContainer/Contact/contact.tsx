@@ -66,7 +66,7 @@ export const Contact = () => {
             <div className="absolute left-0 mt-2 md:left-auto md:right-0">
               <p className="mb-4 flex justify-start font-semibold items-center">
                 <img className="mr-2 " src={whatsapp} alt="whatsapp" />
-                <span className="text-sm lg:text-lg">????????</span>
+                <span className="text-sm lg:text-lg">924 864 822</span>
               </p>
               <p className="mb-4 flex justify-start font-semibold items-center">
                 <img className="mr-2 " src={check} alt="check" />

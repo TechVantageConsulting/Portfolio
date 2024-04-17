@@ -7,7 +7,7 @@ export const HeroSection = () => {
     const typedText = document.querySelector(".typed-text");
     const cursor = document.querySelector(".cursor");
 
-    const textArray = ["Tu presencia digital", "Tu negocio", "Tu ecommerce"];
+    const textArray = ["Su presencia digital", "Su negocio", "Su ecommerce"];
 
     let textArrayIndex = 0;
     let charIndex = 0;
@@ -68,9 +68,9 @@ export const HeroSection = () => {
         <span className="cursor blink">&nbsp;</span>
       </h2>
       <p className="mt-12 text-center text-xl w-4/5 md:w-3/4 md:text-3xl">
-        Desarrollamos la presencia digital de tu negocio desde cero, diseñando
-        sitios web personalizados que reflejan la identidad de tu marca y se
-        conectan con tu audiencia de manera efectiva.
+        Desarrollamos la presencia digital de su negocio desde cero, diseñando
+        sitios web personalizados que reflejan la identidad de su marca y se
+        conectan con su audiencia de manera efectiva.
       </p>
       <div className="text-center mt-8">
         <a className="btn custom-bg-button text-lg" href="#contact">
@@ -80,7 +80,7 @@ export const HeroSection = () => {
       <div className="mt-14 md:mt-28">
         <img src={compound} alt="compound" />
       </div>
-      <h3 className="pt-10 font-bold text-left text-3xl sm:text-4xl sm:text-center sm:w-3/4 md:w-3/4 lg:w-2/3">
+      <h3 className="text-center md:pt-10 font-bold text-left text-3xl sm:text-4xl sm:w-3/4 md:w-3/4 lg:w-2/3">
         Colaboramos con empresas del mundo entero, sin importar el ámbito, para
         hacer realidad sus ideas.
       </h3>

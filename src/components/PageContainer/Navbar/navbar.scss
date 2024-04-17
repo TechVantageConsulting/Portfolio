@@ -10,12 +10,14 @@
     }
 
     &:hover {
-        border-bottom: 2px solid $pink;
+        border-bottom: 2px solid $green;
     }
 }
 
 .navbar {
     z-index: 99999;
+    padding-top: 0px;
+    padding-bottom: 0px;
 
     @media (max-width: 1024px) {
         flex-direction: row-reverse;
@@ -38,8 +40,4 @@
     @media (max-width: 1024px) {
         width: 300px;
     }
-}
-
-.navbar-item {
-    font-size: 24px;
 }

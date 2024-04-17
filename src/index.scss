@@ -3,6 +3,16 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #ffffff !important;
+
+    a {
+      border-color: transparent !important;
+    }
+  }
+}
+
 body {
   font-family: Barlow;
   color: $gray;
@@ -19,12 +29,12 @@ html {
 }
 
 .custom-bg-button {
-  background-color: $pink;
+  background-color: $green;
   color: white;
 
   &:hover {
-    border-color: rgb(187, 32, 88);
-    background-color: rgb(187, 32, 88);
+    border-color: #1dab52;
+    background-color: #1dab52;
   }
 }
 
@@ -49,6 +59,7 @@ html {
   background-color: $gray;
 }
 
-.pink-bg {
-  background-color: $pink;
+.section-title {
+  font-family: Montserrat;
+  border-bottom: 1px solid $green;
 }
